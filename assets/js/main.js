@@ -3,7 +3,7 @@ Mostrar o elemento quando der scroll na página */
 
 const scrollReveal = ScrollReveal({
   origin: "top",
-  distance: "24px",
+  distance: "30px",
   duration: 700,
   reset: true,
 });
