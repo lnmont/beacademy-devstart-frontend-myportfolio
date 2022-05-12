@@ -144,7 +144,6 @@ header .container nav .menu-social img:hover {
 }
 
 .s-success .container .cards .card:hover {
-  transform: translateY(-2%);
   filter: brightness(90%);
 }
 
@@ -210,6 +209,13 @@ header .container nav .menu-social img:hover {
   display: flex;
   gap: 1.6rem;
   margin-top: 3.2rem;
+}
+.s-about .container .about-me ul li a img {
+  transition: all 0.2s;
+}
+.s-about .container .about-me ul li a img:hover {
+  transform: translateY(-12%);
+  filter: brightness(80%);
 }
 
 .s-about .container .my-picture img {
