@@ -1,0 +1,110 @@
+/* My variable colors */
+
+:root {
+  --primary-color: #dcf64b;
+  --second-color: #a0b435;
+  --black-color: #000000;
+  --black-color-medium: #0c0c0c;
+  --semi-black: #1e1e1e;
+  --white-color: #ffffff;
+}
+
+/* Grid normal 12columns */
+.container {
+  width: 100%;
+  max-width: 1246px; /* 15px de cada lado x2 = 30px */
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+/* Grid fluid 100% */
+.container-fluid {
+  width: 100%;
+  padding: 0px 18px;
+}
+
+/* Title Patterns */
+
+h2 {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  color: var(--white-color);
+  margin-top: 2rem;
+}
+
+h2 span {
+  color: var(--primary-color);
+}
+
+.btn-primary {
+  border-radius: 24px;
+  font-weight: 700;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  background-color: var(--primary-color);
+  color: var(--black-color);
+  padding: 1rem 2.6rem;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: var(--white-color);
+  transform: scale(1.04);
+}
+
+.btn-primary.empty {
+  border: 2px solid var(--primary-color);
+  border-radius: 24px;
+  color: var(--primary-color);
+  background-color: transparent;
+  transition: all 0.3s;
+}
+
+.btn-primary.empty:hover {
+  color: var(--black-color);
+  background-color: var(--primary-color);
+}
+
+.menu-item {
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  transition: all 0.2s;
+}
+
+.menu-item:hover {
+  color: var(--white-color);
+  transform: scale(1.04);
+}
+
+.tag {
+  border-radius: 5rem;
+  padding: 0.6rem 2.7rem;
+  background-color: var(--white-color);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* form pattern */
+
+input[type="text"],
+textarea {
+  background-color: var(--semi-black);
+  border: 1px solid var(--semi-black);
+  border-radius: 0.4rem;
+  width: 100%;
+  padding: 2rem;
+  resize: none;
+  color: var(--white-color);
+  outline: none;
+  transition: all 0.4s;
+}
+
+input[type="text"]:hover,
+textarea:hover {
+  border: 1px solid var(--primary-color);
+}
