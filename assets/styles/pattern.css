@@ -14,7 +14,7 @@
   width: 100%;
   max-width: 1246px; /* 15px de cada lado x2 = 30px */
   margin: 0 auto;
-  padding: 0px 15px;
+  padding: 0rem 1.5rem;
 }
 
 /* Grid fluid 100% */
@@ -107,4 +107,12 @@ textarea {
 input[type="text"]:hover,
 textarea:hover {
   border: 1px solid var(--primary-color);
+}
+
+.open-menu {
+  display: none;
+}
+
+.close-menu {
+  display: none;
 }

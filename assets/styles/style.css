@@ -50,6 +50,7 @@ header .container nav .menu-social img:hover {
   background: url(../img/s-hero-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .s-hero .container {
@@ -135,6 +136,7 @@ header .container nav .menu-social img:hover {
 
 .s-success .container .cards .card {
   width: 100%;
+  max-width: 27.9rem;
   height: 30.4rem;
   background-color: var(--white-color);
   border-radius: 4px;
@@ -225,6 +227,7 @@ header .container nav .menu-social img:hover {
 /* Cases */
 .s-cases {
   padding: 4.5rem 0;
+  margin-bottom: 8rem;
 }
 
 .s-cases .container {
@@ -237,9 +240,14 @@ header .container nav .menu-social img:hover {
 
 .s-cases .container .cases {
   display: flex;
-  position: relative;
   width: 100%;
-  height: 48rem;
+  gap: 1.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-cases .container .cases .case:nth-child(2) {
+  margin-top: -1.2rem;
 }
 
 .s-cases .container .cases img {
@@ -252,7 +260,7 @@ header .container nav .menu-social img:hover {
   transform: translateY(-2%);
 }
 
-.s-cases .container .cases .case {
+/* .s-cases .container .cases .case {
   position: absolute;
   top: 0;
   left: 405px;
@@ -275,7 +283,7 @@ header .container nav .menu-social img:hover {
   position: absolute;
   top: 0;
   left: 700px;
-}
+} */
 
 /* Contact */
 

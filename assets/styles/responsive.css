@@ -1,14 +1,197 @@
-@media (max-width: 1200px) {
+@media (max-width: 1260px) {
+  .s-success .container {
+    flex-direction: column;
+  }
+
+  .s-success .container .title-success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .s-success .container .title-success h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 1133px) {
+  .s-about .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+  }
+  .s-about .container .about-me h2 {
+    text-align: center;
+  }
+  .s-about .container .about-me p {
+    text-align: center;
+  }
+  .s-about .container .about-me ul {
+    justify-content: center;
+  }
+}
+@media (max-width: 950px) {
+  .s-success .container .cards {
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .s-success .container .cards .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  .s-success .container .cards .card .card-title h3 {
+    margin-bottom: 0;
+  }
+  .s-cases .container .title-cases h2 {
+    text-align: center;
+  }
+  .s-cases .container .cases {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .s-contact .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .s-contact .container .title-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+  .s-contact .container .title-contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-button {
+    justify-content: center;
+  }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 900px) {
+  header .container nav,
+  header .container nav .menu {
+    flex-direction: column;
+  }
+
+  header .container {
+    display: inline-block;
+  }
+
+  header .container .logo img {
+    width: 8.4rem;
+  }
+
+  header .container nav {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+    top: -20rem;
+  }
+
+  header .container nav .menu,
+  header .container nav .btn-primary,
+  header .container nav .menu-social {
+    display: none;
+  }
+
+  header .container nav.show {
+    opacity: 1;
+    visibility: visible;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    background-color: var(--black-color);
+  }
+
+  header .container nav .menu,
+  header .container nav .btn-primary,
+  header .container nav .menu-social {
+    display: flex;
+  }
+  header .container .open-menu {
+    position: absolute;
+    background-image: url(../img/menu.svg);
+    width: 54px;
+    height: 54px;
+    background-repeat: no-repeat;
+    top: 3.5rem;
+    right: 1.5rem;
+    display: inline-block;
+    cursor: pointer;
+  }
+  header .container nav .close-menu {
+    position: absolute;
+    background-image: url(../img/close.svg);
+    width: 54px;
+    height: 54px;
+    background-repeat: no-repeat;
+    top: 3.5rem;
+    right: 4rem;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  header .container nav .menu {
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .container nav .menu li,
+  header .container nav .menu-social {
+    margin: 0 auto;
+  }
+
+  header .container nav .menu li a {
+    font-size: 2.4rem;
+  }
 }
 
 @media (max-width: 768px) {
 }
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
+  .s-success .container .cards .card {
+    flex-direction: column;
+  }
+
+  .s-success .container .cards .card .card-title {
+    padding: 0;
+  }
+  .s-success .container .cards .card .card-title h3 {
+    text-align: center;
+  }
+
+  .s-success .container .cards .card .card-info p {
+    text-align: center;
+  }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+  html {
+    font-size: 52.2%;
+  }
 }
