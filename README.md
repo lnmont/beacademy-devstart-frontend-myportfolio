@@ -6,7 +6,9 @@
 
 Projeto realizado no dia 12 de maio de 2022, tal projeto foi desenvolvido em live para os alunos do programa DevStart da be.academy.
 
+## Veja o projeto
 
+- [My Portfolio](https://lnmont.github.io/beacademy-devstart-frontend-myportfolio/) 🥰
 
 ## Autores
 
